@@ -5,10 +5,66 @@
     android:layout_height="match_parent"
     tools:context=".song_text.TextFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/songName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:text="@string/songName" />
+
+    <TextView
+        android:id="@+id/songComposer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:text="@string/songComposer" />
+
+    <TextView
+        android:id="@+id/songLirics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="48dp"
+        android:ems="10"
+        android:text="@string/songLirics" />
+
+    <TextView
+        android:id="@+id/songArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="64dp"
+        android:ems="10"
+        android:text="@string/songArtist" />
+
+    <TextView
+        android:id="@+id/songTon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginStart="200dp"
+        android:ems="10"
+        android:text="@string/songTon" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="690dp"
+        android:layout_marginStart="150dp"
+        android:text="@string/back" />
+
+    <TextView
+        android:id="@+id/songText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="start|top"/>
 
 </FrameLayout>

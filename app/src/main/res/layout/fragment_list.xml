@@ -10,7 +10,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/songListRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="647dp"
+        android:layout_height="match_parent"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -20,19 +20,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/song_present_card" />
+        tools:listitem="@layout/song_present_card"/>
+        <!--android:onClick=""-->
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addNewSongfloatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="660dp"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="660dp"
+        android:onClick="makeSearch"
+        android:text="@string/searchButton" />
+
     <!-- TODO: Update blank fragment layout -->
 <!--
 

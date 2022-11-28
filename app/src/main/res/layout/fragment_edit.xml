@@ -61,13 +61,12 @@
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="690dp"
+        android:layout_marginTop="670dp"
         android:layout_marginStart="150dp"
-
         android:text="@string/save" />
 
     <EditText
-        android:id="@+id/songTextOld"
+        android:id="@+id/songText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
@@ -76,15 +75,4 @@
         android:gravity="start|top"
         android:inputType="textMultiLine" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/songText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/songText" />
-    </com.google.android.material.textfield.TextInputLayout>
 </FrameLayout>

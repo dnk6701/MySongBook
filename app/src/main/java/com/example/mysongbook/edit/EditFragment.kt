@@ -30,13 +30,12 @@ class EditFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.saveButton.setOnClickListener {
-//            val number = size
             val songName = binding.songName.text.toString()
             val songComposer = binding.songComposer.text.toString()
             val songLirics = binding.songLirics.text.toString()
             val songArtist = binding.songArtist.text.toString()
             val songTon = binding.songTon.text.toString()
-            val songText = binding.songText
+            val songText = binding.songText.text.toString()
 
             val user = UserData(songName, songComposer, songLirics, songArtist, songTon, songText)
             viewModel.insert(user)

@@ -7,6 +7,10 @@
     <string name="songTon">Тональность</string>
     <string name="save">Сохранить</string>
     <string name="songText">Текст песни</string>
+    <string name="back">К списку</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">О разработчике</string>
+    <string name="emailTextView">dnk6701@mail.ru</string>
+    <string name="callButton">Звонок в поддержку</string>
+    <string name="searchButton">Искать советские песни</string>
 </resources>
